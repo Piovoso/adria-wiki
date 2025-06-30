@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.mainFrame {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: fit-content;
+    position: absolute;
+    right: 0px;
+    left: 6.75em;
+}
+@media screen and (max-width: 540px) {
+    .center {
+        padding: 0 1em;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 680px){
+    .center {
+        max-width: 95%;
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 680px) and (max-width: 1080px){
+    .center {
+        max-width: 95%;
+    }
+    
+    .infoBoard {
+        float:left;
+    }
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1440px){
+    .center {
+        max-width: 80%;
+    }
+    .infoBoard {
+        float:left;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .center {
+        max-width: 60%;
+    }
+    .infoBoard {
+        float:left;
+    }
+}
+    
+.bottomBorder {
+    border-style: solid;
+    border-color: var(--Border_shadow);
+    border-width: 0 0 2px 0;
+}
+
+
+.infoBoard {
+    max-width: fit-content;
+    background-color: var(--Pure_white);
+    padding: 0.5em;
+    margin: 1em 1em 0 0;
+
+    border-style: solid;
+    border-color: var(--Font_accent);
+    border-width: 2px;
+    border-radius: 8px;
+}
+
+.infoSlide {
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.infoSlide .imageHolder {
+    height: 100cqmin;
+    max-height: 15em;
+    width: 100%;
+    background-color: aqua;
+}
+
+.infoSlide .adriaName {
+    font-size: 3em;
+}
+
+.infoSlide .latinName {
+    font-style: italic;
+    color: var(--Font_accent);
+}
+
+.infoSlide .minorInfo {
+    font-style: italic;
+}
+
+.genInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.conservationInfo {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.conservationPointers {
+    font-size: 0.75em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.conservationPointers li {
+    padding: 0 0 8px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.conservationBalloons {
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    justify-content: space-between;
+}
+
+.nilMargin {
+    margin: 0 !important;
+}
+
+.selected {
+    background-color:gold;
+    color: var(--font_override);
+    border-color: gold !important; 
+}
+.conservationBalloons li {
+    margin-left: 8px;
+    font-family: 'Cutive Mono';
+    font-weight: bold;
+    padding: 0.25em;
+    border-style: solid;
+    border-color: var(--Font_accent);
+    border-width: 2px;
+    border-radius: 50%;
+}
+
+.paragraph {
+    position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+    height: fit-content;
+}
+.paragraph p {
+    margin: 0.5em 0 1em 0;
+}
+
+.textFormat {
+    width: 100%;
+}
+
+.textFormat div {
+    font-family: 'Raleway';
+    font-weight: 100;
+    font-size: 1.5em;
+    
+    margin-top: 1em;
+    padding: 0.25em;
+    
+}

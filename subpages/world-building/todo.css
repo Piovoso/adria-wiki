@@ -1,0 +1,20 @@
+
+.mainFrame {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: fit-content;
+    position: absolute;
+    justify-content: space-around;
+    right: 0px;
+    left: 6.75em;
+}
+
+.tabloid {
+    padding: 0.5em;
+
+    height: fit-content;
+    min-width: 200px;
+    width:max-content;
+}

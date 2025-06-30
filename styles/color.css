@@ -1,0 +1,23 @@
+:root {
+    --font_override: #222;
+    --Main_background: #222;
+    --Font_color: #fff;
+    --Font_accent: #bbb;
+    --Border_shadow: #666;
+    --Pure_white: #191919;
+    --Font_highlight: burlywood;
+    --Accent_color: rgb(41, 41, 41);
+    --background_color: rgba(184, 173, 158, 0./-1);
+}
+
+.darkmode {
+    --font_override: #222;
+    --Main_background: #fffef7;
+    --Font_color: #222;
+    --Font_accent: #666;
+    --Border_shadow: #aaa;
+    --Pure_white: #fff;
+    --Font_highlight: burlywood;
+    --Accent_color: antiquewhite;
+    --background_color: rgba(184, 173, 158, 0.5);
+}

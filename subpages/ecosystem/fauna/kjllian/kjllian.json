@@ -1,0 +1,248 @@
+{
+    "infoSlide": {
+        "info1":{
+            "element":"div",
+            "class":["infoSlide","bottomBorder"],
+            "textContent":null,
+
+            "innerElements":{
+                "element1":{
+                    "element":"div",
+                    "class":["imageholder"],
+                    "textContent":null,
+                    "innerElements":null
+                },
+                "element2":{
+                    "element":"span",
+                    "class":["adriaName", "big"],
+                    "textContent":"Kjllian",
+                    "innerElements":null
+                },
+                "element3":{
+                    "element":"span",
+                    "class":["latinName"],
+                    "textContent":"Xanis",
+                    "innerElements":null
+                }
+            }
+        },
+
+        "info2":{
+            "element":"div",
+            "class":["infoSlide","bottomBorder"],
+            "textContent":null,
+
+            "innerElements":{
+                "element1":{
+                    "element":"span",
+                    "class":["minorInfo"],
+                    "textContent":"pl.: Kjlliani",
+                    "innerElements":null
+                },
+                "element2":{
+                    "element":"span",
+                    "class":["alsoKnown"],
+                    "textContent":"Shorit, Kjll",
+                    "innerElements":null
+                }
+            }
+        },
+
+        "info3":{
+            "element":"div",
+            "class":["infoSlide","bottomBorder"],
+            "textContent":null,
+            
+            "innerElements":{
+                "element1":{
+                    "element":"span",
+                    "class":["genInfo"],
+                    "textContent":null,
+                    "innerElements":{
+                        "element1":{
+                            "element":"span",
+                            "class":null,
+                            "textContent":"Weight",
+                            "innerElements":null
+                        },
+                        "element2":{
+                            "element":"span",
+                            "class":null,
+                            "textContent":"3.3st",
+                            "innerElements":null
+                        }
+                    }
+                },
+                "element2":{
+                    "element":"span",
+                    "class":["genInfo"],
+                    "textContent":null,
+                    "innerElements":{
+                        "element1":{
+                            "element":"span",
+                            "class":null,
+                            "textContent":"Height",
+                            "innerElements":null
+                        },
+                        "element2":{
+                            "element":"span",
+                            "class":null,
+                            "textContent":"120cm",
+                            "innerElements":null
+                        }
+                    }
+                },
+                "element3":{
+                    "element":"span",
+                    "class":["genInfo"],
+                    "textContent":null,
+                    "innerElements":{
+                        "element1":{
+                            "element":"span",
+                            "class":null,
+                            "textContent":"Colour",
+                            "innerElements":null
+                        },
+                        "element2":{
+                            "element":"span",
+                            "class":null,
+                            "textContent":"Crimsont",
+                            "innerElements":null
+                        }
+                    }
+                }
+            }
+        },
+
+        "info4":{
+            "element":"div",
+            "class":["infoSlide","bottomBorder"],
+            "textContent":null,
+            
+            "innerElements":{
+                "line1":{
+                    "element":"span",
+                    "class":["genInfo"],
+                    "textContent":null,
+                    "innerElements":{
+                        "element1":{
+                            "element":"span",
+                            "class":null,
+                            "textContent":"Diet",
+                            "innerElements":null
+                        },
+                        "element2":{
+                            "element":"span",
+                            "class":null,
+                            "textContent":"Omnivore",
+                            "innerElements":null
+                        }
+                    }
+                }
+            }
+        },
+        
+        "info5":{
+            "element":"div",
+            "class":["infoSlide"],
+            "textContent":null,
+            
+            "innerElements":{
+                "element1":{
+                    "element":"div",
+                    "class":["conservationInfo"],
+                    "textContent":null,
+
+                    "innerElements":{
+                        "element1":{
+                            "element":"ul",
+                            "class":["conservationPointers"],
+                            "textContent":null,
+
+                            "innerElements":{
+                                "element1":{
+                                    "element":"li",
+                                    "class": null,
+                                    "textContent":"Extinct",
+                                    
+                                    "innerElements": null
+                                },
+                                "element2":{
+                                    "element":"li",
+                                    "class": null,
+                                    "textContent":"Threatened",
+                                    
+                                    "innerElements": null
+                                },
+                                "element3":{
+                                    "element":"li",
+                                    "class": null,
+                                    "textContent":"Least<wbr>Concern",
+                                    
+                                    "innerElements": null
+                                }
+                            }
+                        },
+                        "element2":{
+                            "element":"ul",
+                            "class":["conservationBalloons"],
+                            "textContent":null,
+
+                            "innerElements":{
+                                "element1":{
+                                    "element":"li",
+                                    "class": ["nilMargin"],
+                                    "textContent":"EX",
+                                    
+                                    "innerElements": null
+                                },
+                                "element2":{
+                                    "element":"li",
+                                    "class": null,
+                                    "textContent":"EW",
+                                    
+                                    "innerElements": null
+                                },
+                                "element3":{
+                                    "element":"li",
+                                    "class": null,
+                                    "textContent":"CR",
+                                    
+                                    "innerElements": null
+                                },
+                                "element4":{
+                                    "element":"li",
+                                    "class": null,
+                                    "textContent":"EN",
+                                    
+                                    "innerElements": null
+                                },
+                                "element5":{
+                                    "element":"li",
+                                    "class": null,
+                                    "textContent":"VU",
+                                    
+                                    "innerElements": null
+                                },
+                                "element6":{
+                                    "element":"li",
+                                    "class": ["selected"],
+                                    "textContent":"NT",
+                                    
+                                    "innerElements": null
+                                },
+                                "element7":{
+                                    "element":"li",
+                                    "class": null,
+                                    "textContent":"LC",
+                                    
+                                    "innerElements": null
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

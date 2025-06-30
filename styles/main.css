@@ -1,0 +1,110 @@
+.accent {
+    position: fixed;
+    margin-left: 6em;
+    width: 100%;
+    z-index: -99;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 5em);
+
+}
+
+.accent div {
+    margin: 2.5rem;
+    width: fit-content;
+    height: fit-content;
+    
+    border-style: solid;
+    border-color: var(--background_color);
+    border-width: 2px;
+    border-radius: 50%;
+
+}
+
+
+
+.mainWindow {
+    margin-left: 6.75em;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.region {
+    padding: 1em;
+    margin: 1em;
+    
+
+}
+
+.region span {
+    padding: 0.5em;
+    font-size: 1.5em;
+
+
+}
+
+.subRegion {
+    padding: 0 0.5em;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    height: fit-content;
+    justify-content: flex-start;
+    
+    border-style: solid;
+    border-color: var(--Accent_color);
+    border-width: 4px;
+    border-radius: 5px;
+
+}
+
+.section {
+    max-width: 17em;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.section span {
+    font-size: 1.5em;
+    padding: 0 0 0.25em 0 ;
+    text-align: center;
+    background-color: var(--Accent_color);
+    
+
+    border-style: solid;
+    border-color: var(--Font_highlight);
+    border-width:  0 4px;
+    border-radius: 12px;
+}
+
+.section a {
+    padding: 0 0.5em;
+    margin-top: 4px;
+    text-decoration: none;
+    color: var(--Font_color);
+    height: fit-content;
+    width: fit-content;
+}
+
+.section a:hover {
+    padding-left: 4px;
+    border-style: solid;
+    font-weight: 600;
+    border-color: var(--Accent_color);
+    border-width: 0 0 0 4px;
+    border-radius: 4px;
+}
+
+.reference {
+    margin: 0.5em;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
